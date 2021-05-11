@@ -1,1 +1,1 @@
-# Tool to train nn to your motion
+# Tool to train nn bridge from simulation to reality
