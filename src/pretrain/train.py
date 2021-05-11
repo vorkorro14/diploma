@@ -1,5 +1,5 @@
-# Motion Pipeline 
-# Copyright (C) 2021  
+# Motion Pipeline
+# Copyright (C) 2021
 # Vladimir Litvinenko
 
 # get dataset
