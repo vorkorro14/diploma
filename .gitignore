@@ -146,3 +146,6 @@ log/
 
 # Mac OS stuff
 .DS_Store
+
+# VS Code
+.vscode/
