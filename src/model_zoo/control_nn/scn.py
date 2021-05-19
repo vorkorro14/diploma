@@ -1,10 +1,10 @@
 import torch
 from torch import nn
 from .linear import LinearBlock
-from .rnn import RecurrentBlock as NonLinearBlock
+from .mlp import MultiLayerPerceptron as NonLinearBlock
 
 
-class RecurrentControlNetwork(nn.Module):
+class StructuredControlNetwork(nn.Module):
     def __init__(self, input_shape, output_shape):
         super().__init__()
         self.linear_part = LinearBlock(input_shape, output_shape)
